@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TrenRezervasyon.API</name>
+    </assembly>
+    <members>
+        <member name="M:TrenRezervasyon.API.Controllers.RezervasyonController.Post(TrenRezervasyon.Entities.RezervasyonRequest)">
+            <summary>
+            Rezervasyon istenilen trenin bilgileri, vagon ayrıntıları, kaç kişilik rezervasyon istenildiği ve kişilerin farklı vagonlara yerleştirilip yerleştirilemeyeceği bilgilerini verdiğinizde size rezervasyonun yapılıp yapılamayacağını ve yapılabiliyorsa hangi vagonlara kaç kişinin yerleştirildiğini bilgisini size döner.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

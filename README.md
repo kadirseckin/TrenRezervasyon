@@ -1,6 +1,10 @@
-## Tren Rezervasyon API Projesi
+# Tren Rezervasyon API Projesi
 
 Rezervasyon istenilen trenin bilgileri, vagon ayrıntıları, kaç kişilik rezervasyon istenildiği ve kişilerin farklı vagonlara yerleştirilip yerleştirilemeyeceği bilgilerini içeren bir post isteği attığımızda rezervasyon yapılıp yapılamayacağını ve yapılabiliyorsa rezervasyonla ilgili bilgileri geri döndüren bir API geliştirildi.  .NET CORE kullanılarak katmanlı mimariye göre geliştirildi ve  Swagger ile API dökümantasyonu hazırlandı.
+<br>
+## Nasıl kullanılır
+- Rezervasyon yapılıp yapılamayacağını sorgulamak için  **/api/Rezervasyon**  endpointine, gövdesinde gerekli bilgileri içeren bir **POST** isteği atılmalıdır.
+- API dökümantasyonunu görmek için **/swagger** endpointine tarayıcı üzerinden **GET** isteği atabilirsiniz.
 
 ## Postman ve Swagger ekran görüntüleri
 
